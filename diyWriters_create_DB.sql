@@ -23,7 +23,7 @@ Genre VARCHAR(25) NOT NULL,
 FileName VARCHAR(175) NOT NULL,
 Submitted DATETIME NOT NULL DEFAULT NOW(),
 
-Foreign Key (UserID) references User(ID)
+Foreign Key (UserId) references User(Id)
 );
 
 CREATE USER IF NOT EXISTS 'diy_user'@'localhost' IDENTIFIED BY 'writethings';
