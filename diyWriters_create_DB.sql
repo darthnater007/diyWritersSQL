@@ -22,6 +22,7 @@ Title VARCHAR(100) NOT NULL,
 Genre VARCHAR(25) NOT NULL,
 FileName VARCHAR(175) NOT NULL,
 Submitted DATETIME NOT NULL DEFAULT NOW(),
+IsPublication TINYINT(1) DEFAULT 0 NOT NULL,
 
 Foreign Key (UserId) references User(Id)
 );
