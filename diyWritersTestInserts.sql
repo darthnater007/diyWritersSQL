@@ -3,3 +3,6 @@ VALUES ('Test1', 'test', 'Test', 'Testerson', 'testing bio', 'test@test.test', '
 
 INSERT INTO `diyWriters`.`Piece` (`UserId`, `Title`, `Genre`, `FileName`) 
 VALUES ('1', 'test', 'test', 'test');
+
+INSERT INTO `diyWriters`.`Piece` (`UserId`, `Title`, `Genre`, `FileName`, `IsPublication`) 
+VALUES ('1', 'testworkshop', 'testing', 'testing', 1);
