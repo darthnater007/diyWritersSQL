@@ -35,10 +35,8 @@ HostedBy VARCHAR(100) NOT NULL,
 Description VARCHAR(250) NOT NULL,
 EventName VARCHAR(100) NOT NULL,
 Location VARCHAR(100) NOT NULL,
-EventDate DATE NOT NULL,
-EventStart TIME NOT NULL,
-EventEnd TIME
-
+EventStart DATETIME NOT NULL,
+EventEnd DATETIME
 );
 
 CREATE USER IF NOT EXISTS 'diy_user'@'localhost' IDENTIFIED BY 'writethings';
